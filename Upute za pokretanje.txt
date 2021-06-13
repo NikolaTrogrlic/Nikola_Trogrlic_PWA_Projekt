@@ -1,0 +1,12 @@
+1.Fileove iz foldera "ZaHtdocs" prekopoirati u htdocs folder od XAMPP-a radi testiranja
+
+2. Importirati bazu sa "clanak.sql" fileom u phpmyadmin-u
+
+3. Ako je vaš log in info za bazu drugačiji, može se podesiti unutar "connect.php"
+
+4. Login info za administratora je:
+	Username: Administrator
+	Password: administrator
+
+5.Ako bude nekih problema ili pitanja pri pokretanju možete mi se javiti na microsoft teamsu
+pod imenom Nikola Trogrlić.
