@@ -1,0 +1,305 @@
+/*FONTOVI*/
+@font-face {
+  font-family: Dustimo;
+  src: url(fonts/Dustismo_Roman_Bold-webfont.woff);
+  font-style:normal;
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: Dustimo;
+  src: url(fonts/Dustismo_Roman_Italic_Bold-webfont.woff);
+  font-style:italic;
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: Dustimo;
+  src: url(fonts/Dustismo_Roman_Italic-webfont.woff);
+  font-weight:normal;
+  font-style:italic;
+}
+
+@font-face {
+  font-family: Dustimo;
+  src: url(fonts/Dustismo_Roman-webfont.woff);
+  font-weight:normal;
+  font-style:normal;
+}
+
+
+/* NAVIGATION STIL*/
+
+
+nav ul {
+  display:block;
+  width:750px;
+  margin:0 auto;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  border-bottom:1px solid black;
+  text-align:center;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #00004d;
+  text-align: center;
+  margin-top:25px;
+  padding: 0px 10px 2px;
+  text-decoration: none;
+  font-weight:bold;
+  font-size:13px;
+}
+
+/*HEADER STIL*/
+header h1{
+  color: #00004d;
+  font-size:60px;
+  margin-bottom:0px;
+  padding:0px;
+}
+
+header h2{
+  margin-top:0px;
+  margin-bottom:20px;
+  font-size:16px;
+  padding:0px;
+  color:grey;
+  letter-spacing: 2px;
+}
+
+h1,h2{
+  text-align:center;
+  font-family:'Dustimo',sans-serif;
+}
+/*SECTION STIL*/
+section{
+  width:700px;
+  height:350px;
+  margin:0 auto;
+  border-bottom:1px solid black;
+  clear:both;
+}
+
+h3{
+  font-size:25px;
+  font-family:'Dustimo',sans-serif;
+}
+
+#EUROPA::before{
+  content:'■';
+  color: #994d00;
+  font-size:15px;
+  vertical-align:top;
+  padding-right:5px;
+}
+
+#TEKNAUTAS::before{
+  content:'■';
+  color:#c44dff;
+  font-size:15px;
+  vertical-align:top;
+  padding-right:5px;
+}
+
+article{
+  float:left;
+  width:200px;
+  margin:0px 30px 20px 0px;
+  padding:0px;
+}
+
+article p{
+  margin:4px;
+}
+
+h4 a{
+  color:black;
+  text-decoration:none;
+}
+
+.published{
+  font-size:9px;
+  color:#e6e6e6;
+  display:block;
+  border-left:3px solid #e6e6e6;
+  margin-left:8px;
+  padding:2px;
+}
+
+.article-image{
+  min-width:140px;
+  max-width:200px;
+  height:120px;
+}
+
+.article-image-big{
+  width:256px;
+  min-height:128px;
+  max-height:256px;
+  margin:0 auto;
+  display:block;
+  border:1px solid black;
+}
+
+.clanak{
+  width:350px;
+  background-color:#f4f7fc;
+  margin:10px;
+  float:left;
+  text-align:center;
+  border: 1px solid black;
+  height:350px;
+}
+
+.error{
+  color:red;
+}
+
+/*FOOTER STIL*/
+footer ul{
+  display:block;
+  margin: auto;
+  list-style-type: none;
+  margin-top:50px;
+  padding: 10px;
+  overflow: hidden;
+  text-align:center;
+}
+
+footer ul li {
+  display:inline-block;
+}
+
+footer ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 10px 2px;
+  text-decoration: none;
+  font-size:9px;
+}
+
+html{ height:100%; }
+body { min-height:100%;  margin:0; }
+
+footer {
+  height: 50px;
+}
+
+
+body {
+  display: table;
+  width: 100%;
+}
+
+body > footer {
+   display: table-row;
+}
+
+.nav{
+  border-bottom:1px solid grey;
+  padding:20px 20px 0px 20px;
+}
+
+.nav h3{
+  padding-left:70px;
+  margin:30px 0px 10px 30px;
+  font-size:20px;
+}
+
+.categoryLink{
+  color:black;
+  text-decoration: none
+}
+
+a{text-decoration: none;}
+
+.article-container{
+  width:720px;
+  margin:10px auto;
+}
+
+.article-header{
+  display:block;
+  width:900px;
+  margin:20px auto;
+  border-bottom:1px solid  grey;
+}
+
+.article-header h1{
+  font-size:40px;
+  color:black;
+}
+
+.article-container h2{
+  font-size:15px;
+  color:grey;
+  margin-top:30px;
+}
+
+.article-maincontainer{
+  font-size:15px;
+  display:block;
+  width:500px;
+  margin:20px auto;
+  line-height:20px;
+}
+
+.big-image{
+  width:512px;
+  min-height:256px;
+  max-height:512px;
+  margin:0 auto;
+  display:block;
+}
+
+#date{
+  color:black;
+  font-weight:bold;
+  font-size:13px;
+}
+
+#form{
+  width:800px;
+  margin: 30px auto;
+  border:2px solid #00004d;
+  padding:20px;
+}
+
+#loginforma{
+  margin-top: 60px;
+  border:2px solid black;
+  padding:10px;
+}
+
+#logoutButton{
+  border:1px solid black;
+  background-color:#cce6ff;
+  width:80px;
+  display:block;
+  margin:5px auto;
+}
+
+.centerText{
+  text-align:center;
+  padding:5px;
+}
+
+.inputelement{
+  margin-top:20px;
+  width:800px;
+  color:#00004d;
+}
+
+.center{
+  width:750px;
+  margin:0 auto;
+  background-color:#f4f7fc;
+}
